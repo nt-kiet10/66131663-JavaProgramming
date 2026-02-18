@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class baitap3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 	    Scanner sc = new Scanner(System.in);
         
 	    System.out.println("Nhập cân nặng (kg) :");
@@ -26,6 +25,7 @@ public class baitap3 {
         } else {
             System.out.println("Phân loại: Béo phì");
         }
+        sc.close();
 	}
 
 }
