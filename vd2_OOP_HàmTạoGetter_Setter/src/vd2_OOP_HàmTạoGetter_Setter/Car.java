@@ -1,3 +1,5 @@
+package vd2_OOP_HàmTạoGetter_Setter;
+
 public class Car {
 	// Tạo các thuộc tính cho xe 
 	private String HangXe;
@@ -40,5 +42,12 @@ public class Car {
 	public void setGia(double Gia) {
 	    this.Gia = Gia;
 	}
-
+	
+	public String toString(){
+		String s = "Xe nay thuoc hang " + HangXe;
+		s = s + ", mau " + MauXe;
+		s = s + ", san xuat tu " + Tuoi;
+		s = s + ", co gia" + Gia + " M USD.";
+		return s;
+	}
 }
