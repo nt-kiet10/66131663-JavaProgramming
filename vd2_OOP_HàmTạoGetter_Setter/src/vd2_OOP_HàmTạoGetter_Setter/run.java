@@ -5,7 +5,7 @@ public class run {
     public static void main(String[] args) {
 
         Car xe1 = new Car(null, null, 0, 0);
-        Car xe2 = new Car("Toyota", "M", 12, 1);
+        Car xe2 = new Car("Toyota", "Đen", 12, 1);
 
         // gán giá trị cho xe1
         xe1.setHangXe("Honda");
