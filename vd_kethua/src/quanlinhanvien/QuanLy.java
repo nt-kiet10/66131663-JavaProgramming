@@ -26,5 +26,5 @@ public class QuanLy extends NhanVien{
     
     public void hopBanGiamDoc() {
         System.out.println(getHoTen() + " đang họp với ban giám đốc...");
-}
+    }
 }
