@@ -44,7 +44,7 @@ public class Main {
 			} else {
 			    System.out.println("Khong tim thay hoc sinh ten: " + tenXoa);
 			}
-	        sc.close();
+	        sc.close();//ghi chú 
 	}
 
 }
