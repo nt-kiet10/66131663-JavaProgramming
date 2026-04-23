@@ -39,5 +39,6 @@ public class HocSinh {
 		   namSinh = sc.nextInt();
 		   
 	   }
+} 
 	   
        
