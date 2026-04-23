@@ -1,25 +1,25 @@
 package thigk2.nguyentuankiet_bai2;
 
-public class Bai2_QLSV {
+public class SinhVien {
      
-	private int MSSV;
+	private String MSSV;
 	private String hoTen;
 	private int namSinh;
 	private double diemSo;
-	public Bai2_QLSV() {
+	public SinhVien() {
 		
 	}
-	public Bai2_QLSV(int mSSV, String hoTen, int namSinh,double diemSo) {
+	public SinhVien(String mSSV, String hoTen, int namSinh,double diemSo) {
 		super();
 		MSSV = mSSV;
 		this.hoTen = hoTen;
 		this.namSinh = namSinh;
 		this.diemSo = diemSo;
 	}
-	public int getMSSV() {
+	public String getMSSV() {
 		return MSSV;
 	}
-	public void setMSSV(int mSSV) {
+	public void setMSSV(String mSSV) {
 		MSSV = mSSV;
 	}
 	public String getHoTen() {
@@ -39,6 +39,10 @@ public class Bai2_QLSV {
 	}
 	public void setDiemSo(double diemSo) {
 		this.diemSo = diemSo;
+	}
+	@Override
+	public String toString() {
+		return "Bai2_QLSV [MSSV=" + MSSV + ", hoTen=" + hoTen + ", namSinh=" + namSinh + ", diemSo=" + diemSo + "]";
 	}
 	
 	
