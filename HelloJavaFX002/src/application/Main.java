@@ -9,8 +9,9 @@ import javafx.scene.layout.StackPane;
 
 
 public class Main extends Application {
+	
 	@Override
-public void start(Stage primaryStage) throws Exception {
+     public void start(Stage primaryStage) throws Exception {
 		
 		//Tạo nút bấm 
 		Button btn = new Button();
@@ -19,6 +20,7 @@ public void start(Stage primaryStage) throws Exception {
 		// Tạo màn hình hiển thị 
 		StackPane root = new StackPane();
 		root.getChildren().add(btn);
+		
 		Scene scene = new Scene(root, 300, 250);
 		primaryStage.setTitle("Hello World!");
 		primaryStage.setScene(scene);
